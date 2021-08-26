@@ -1,0 +1,53 @@
+{
+  "name": "restful-",
+  "version": "1.0.0",
+  "description": "A RESTful API build with Node.js | Express.js | Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onyishi/RESTful-.git"
+  },
+  "keywords": [
+    "Restful",
+    "|",
+    "mongodb",
+    "|",
+    "mongoose",
+    "|",
+    "express",
+    "|",
+    "express",
+    "middleware",
+    "|",
+    "node.js"
+  ],
+  "author": "Onyishi Chetachi Victor",
+  "license": "ISC",
+  "script": {
+    "start": "nodemon --config nodemon.json src/app.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/Onyishi/RESTful-/issues"
+  },
+  "homepage": "https://github.com/Onyishi/RESTful-#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.1",
+    "nanoid": "^3.1.25",
+    "node": "^16.6.1",
+    "nodemon": "^2.0.12",
+    "pino": "^6.13.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2",
+    "yup": "^0.32.9"
+  }
+}
